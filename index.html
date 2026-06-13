@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Episode33 — 阅读、散步、独处与漫想</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="page">
+
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+
+      <!-- Top strip -->
+      <div class="top-strip">
+        <span>2025 · 06 · 13</span>
+        <span class="vr"></span>
+        <span>第 <span id="current-issue">13</span> 期</span>
+        <span class="vr"></span>
+        <span class="search-box">
+          <svg width="10" height="10" viewBox="0 0 10 10" class="search-icon">
+            <circle cx="4" cy="4" r="3" fill="none" stroke="currentColor" stroke-width="1"/>
+            <line x1="6.2" y1="6.2" x2="9" y2="9" stroke="currentColor" stroke-width="1"/>
+          </svg>
+          <input type="text" id="search-input" placeholder="搜索..." aria-label="搜索文章">
+        </span>
+        <span class="spacer"></span>
+        <button id="theme-toggle" class="theme-toggle" aria-label="切换暗色模式">
+          <span class="theme-label-light">浅</span>
+          <span class="vr"></span>
+          <span class="theme-label-dark">暗</span>
+        </button>
+      </div>
+
+      <!-- Masthead -->
+      <div class="masthead">
+        <div class="masthead-accent"></div>
+        <h1 class="masthead-title">Episode 33</h1>
+        <p class="masthead-subtitle">阅读、散步、独处与漫想 · 一个人的精神角落</p>
+        <div class="masthead-rule-top"></div>
+        <div class="masthead-rule-bottom"></div>
+      </div>
+
+      <!-- Navigation -->
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#" class="nav-link active">文章</a>
+        <a href="#" class="nav-link">关于</a>
+        <a href="#" class="nav-link">归档</a>
+      </nav>
+
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <div class="main-wrapper">
+
+      <!-- LEFT: Filter Sidebar -->
+      <aside class="sidebar sidebar-left" aria-label="分类筛选">
+        <div class="sidebar-section">
+          <h3 class="sidebar-label"><span class="geo-diamond">◆</span> 分类</h3>
+          <ul class="filter-list" id="category-filter">
+            <li>
+              <button class="filter-btn active" data-category="all">
+                <span class="geo-marker filled"></span>
+                <span>全部</span>
+              </button>
+            </li>
+            <li>
+              <button class="filter-btn" data-category="life">
+                <span class="geo-marker hollow"></span>
+                <span>生活</span>
+              </button>
+            </li>
+            <li>
+              <button class="filter-btn" data-category="excerpt">
+                <span class="geo-marker hollow"></span>
+                <span>摘抄</span>
+              </button>
+            </li>
+            <li>
+              <button class="filter-btn" data-category="mood">
+                <span class="geo-marker hollow"></span>
+                <span>心情</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="triple-rule"></div>
+        <div class="triple-rule"></div>
+        <div class="triple-rule"></div>
+
+        <p class="sidebar-info">
+          共 <span id="total-count">5</span> 篇文章<br>
+          更新于 2025.06.13
+        </p>
+      </aside>
+
+      <!-- CENTER: Articles -->
+      <main class="content" id="articles-container" aria-label="文章列表">
+
+        <!-- ===== ISSUE 13 ===== -->
+        <section class="issue" data-issue="13">
+          <div class="issue-header">
+            <h2 class="issue-title">第十三期</h2>
+            <div class="issue-rule"></div>
+            <span class="issue-date">2025 年 6 月</span>
+          </div>
+
+          <!-- Article 01: Featured -->
+          <article class="entry entry-featured" data-category="mood" data-issue="13" id="post-1">
+            <div class="entry-head">
+              <span class="entry-number featured">01</span>
+              <span class="geo-diamond-rotated"></span>
+              <span class="entry-badge">专题</span>
+              <span class="vr"></span>
+              <span class="entry-category">心情</span>
+            </div>
+            <h2 class="entry-title">傍晚一个人走在河边，忽然想明白了一些事</h2>
+            <p class="entry-excerpt">下班后没有直接回家，绕到河边走了半个小时。傍晚的光是那种说不清的橘粉色，河面有细细的波纹。站在那里看了很久，觉得之前纠结的那些事——别人怎么看我、够不够好、是不是在浪费时间——好像都不那么重要了。可能就是需要一个这样的傍晚。</p>
+            <div class="entry-content">
+              <p>下班后没有直接回家。不知道为什么，今天不想那么快回到那个四面墙的房间。</p>
+              <p>绕到办公楼后面那条河，沿着步道走了大概半个小时。傍晚的光是那种说不清的橘粉色——不是橙色，不是粉色，介于两者之间，像旧照片褪了色。河面有细细的波纹，在风里轻微地动，像在呼吸。</p>
+              <p>站在那里看了很久。</p>
+              <p>最近脑子里装了太多事。工作上的项目赶不上进度，跟朋友起了莫名其妙的争执，家里打电话来问什么时候回去。每一件单独拿出来都不算大事，但堆在一起就会压得人喘不过气。</p>
+              <p>但站在河边的那半个小时里，这些事忽然变得很轻。不是消失了，而是好像被放到了更大的背景里——看到河水一直在流，天一直在变暗，世界一直在运行，就觉得自己的那些纠结可能没那么严重。</p>
+              <p>以前总跟别人说"出去走走就好了"，觉得那是一句敷衍的安慰。今天才意识到，它可能是真的。</p>
+            </div>
+            <div class="entry-meta">
+              <span>06.13</span>
+              <span class="vr"></span>
+              <button class="meta-btn like-btn" data-post="1" aria-label="点赞">
+                <svg width="9" height="8" viewBox="0 0 9 8" class="meta-icon">
+                  <path d="M4.5 8 L0 3.5 Q0 0 4.5 1 Q9 0 9 3.5 Z" fill="none" stroke="currentColor" stroke-width="0.8"/>
+                </svg>
+                <span class="like-count">42</span>
+              </button>
+              <span class="vr"></span>
+              <button class="meta-btn share-btn" data-post="1" aria-label="转发">
+                <svg width="8" height="8" viewBox="0 0 8 8" class="meta-icon">
+                  <circle cx="2" cy="4" r="1.2" fill="none" stroke="currentColor" stroke-width="0.8"/>
+                  <circle cx="6" cy="2" r="1.2" fill="none" stroke="currentColor" stroke-width="0.8"/>
+                  <circle cx="6" cy="6" r="1.2" fill="none" stroke="currentColor" stroke-width="0.8"/>
+                  <line x1="3" y1="3.5" x2="5" y2="2.3" stroke="currentColor" stroke-width="0.6" opacity="0.5"/>
+                  <line x1="3" y1="4.5" x2="5" y2="5.7" stroke="currentColor" stroke-width="0.6" opacity="0.5"/>
+                </svg>
+                <span class="share-count">12</span>
+              </button>
+              <span class="vr"></span>
+              <span>7 评论</span>
+              <span class="vr"></span>
+              <span class="read-link">阅读</span>
+            </div>
+          </article>
+
+          <!-- Article 02 -->
+          <article class="entry" data-category="excerpt" data-issue="13" id="post-2">
+            <div class="entry-row">
+              <span class="entry-number">02</span>
+              <div class="entry-body">
+                <span class="entry-category">摘抄</span>
+                <h3 class="entry-title-sm">加缪《西西弗神话》——关于"活着"的段落</h3>
+                <p class="entry-excerpt-sm">"诸神认为，没有一种惩罚比徒劳无功和毫无希望的劳动更为可怕。"但加缪接着说，攀登山顶的拼搏本身足以充实一颗心灵。应当想象西西弗是幸福的。每次读到这里都会停下来——不是因为懂了，而是觉得自己还没到能懂的那一步。</p>
+                <div class="entry-content">
+                  <p>西西弗是希腊神话里的一个国王，因为欺骗诸神被罚：每天把一块巨石推到山顶，然后石头滚下来，第二天再推上去，永远重复。</p>
+                  <p>加缪在《西西弗神话》里用这个形象来讨论一个根本的问题：如果人生本质上是荒谬的、重复的、徒劳的，为什么还要活下去？</p>
+                  <p>他写道：<em>"诸神认为，没有一种惩罚比徒劳无功和毫无希望的劳动更为可怕。"</em></p>
+                  <p>但加缪接下来说的话改变了整个故事的方向。他说，当西西弗走下山去重新推那块石头的时候——在那个短暂的间隙里——他是清醒的。他知道自己的命运，但他选择继续。这种清醒的坚持本身，就是一种反抗。</p>
+                  <p>最后那句最有名：<em>"应当想象西西弗是幸福的。"</em>（Il faut imaginer Sisyphe heureux.）</p>
+                  <p>每次读到这里我都会停下来。不是因为读懂了——说实话我不知道自己有没有懂。而是觉得这句话里面有一种我还没完全理解的东西，它让我隐约感到：也许生活的意义不在结果，而在推石头的过程本身。</p>
+                  <p>把这个段落抄在这里，是想提醒自己：下次觉得累的时候，想想西西弗。</p>
+                </div>
+                <div class="entry-meta-sm">
+                  <span>06.08</span>
+                  <span class="vr"></span>
+                  <button class="meta-btn like-btn" data-post="2" aria-label="点赞">
+                    <svg width="7" height="6" viewBox="0 0 9 8" class="meta-icon-sm">
+                      <path d="M4.5 8 L0 3.5 Q0 0 4.5 1 Q9 0 9 3.5 Z" fill="none" stroke="currentColor" stroke-width="0.8"/>
+                    </svg>
+                    <span class="like-count">38</span>
+                  </button>
+                  <span class="vr"></span>
+                  <span>5 评</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 03 -->
+          <article class="entry" data-category="life" data-issue="13" id="post-3">
+            <div class="entry-row">
+              <span class="entry-number">03</span>
+              <div class="entry-body">
+                <span class="entry-category">生活</span>
+                <h3 class="entry-title-sm">周末整理书架，翻出一本十年前的日记</h3>
+                <p class="entry-excerpt-sm">字迹歪歪扭扭的，里面写的烦恼现在看起来好小——考试没考好、和同桌闹别扭、想买一双球鞋妈妈不让。但那种认真对待每一个情绪的态度，忽然让我有点羡慕。长大以后反而不会这样诚实地面对自己了。</p>
+                <div class="entry-content">
+                  <p>周末没什么事，想着整理一下书架。很多书买回来就没翻过，有些已经积了薄薄一层灰。在最底层的角落里，翻出一本旧笔记本——封面上贴着一张褪色的贴纸，是我的字迹，写着"日记·勿动"。</p>
+                  <p>翻开第一页，日期是十年前。那天的日记只有三行："今天数学考了78分。同桌说我笨。不想上学。"</p>
+                  <p>再往后翻，里面记录的全是现在看起来微不足道的事：体育课被分到不喜欢的组、攒了两个月的零花钱买了一双球鞋、爸爸答应带我去游乐园但是又忘了。</p>
+                  <p>但当时写这些字的时候，我能从歪歪扭扭的笔迹里看出那种认真。每个字都用力地压在纸面上，像在说：这些事对我很重要。</p>
+                  <p>看着看着，忽然觉得有点羡慕十年前的自己。那时候愿意花一整个晚上写日记，把每一件小事都认真地记下来。现在的我呢，发生了什么都不太想写，觉得"算了，又不是什么大事"。</p>
+                  <p>但也许那些"小事"才是生活本来的样子。</p>
+                </div>
+                <div class="entry-meta-sm">
+                  <span>06.01</span>
+                  <span class="vr"></span>
+                  <button class="meta-btn like-btn" data-post="3" aria-label="点赞">
+                    <svg width="7" height="6" viewBox="0 0 9 8" class="meta-icon-sm">
+                      <path d="M4.5 8 L0 3.5 Q0 0 4.5 1 Q9 0 9 3.5 Z" fill="none" stroke="currentColor" stroke-width="0.8"/>
+                    </svg>
+                    <span class="like-count">56</span>
+                  </button>
+                  <span class="vr"></span>
+                  <span>12 评</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <!-- ===== ISSUE 12 ===== -->
+        <section class="issue issue-old" data-issue="12">
+          <div class="issue-header">
+            <h2 class="issue-title old">第十二期</h2>
+            <div class="issue-rule old"></div>
+            <span class="issue-date old">2025 年 5 月</span>
+          </div>
+
+          <!-- Article 04 -->
+          <article class="entry entry-faded" data-category="excerpt" data-issue="12" id="post-4">
+            <div class="entry-row">
+              <span class="entry-number faded">04</span>
+              <div class="entry-body">
+                <span class="entry-category faded">摘抄</span>
+                <h3 class="entry-title-sm faded">木心《文学回忆录》——一些舍不得读完的句子</h3>
+                <p class="entry-excerpt-sm faded">"生活的最佳状态是冷冷清清的风风火火。"还有一段他说："一个人到世界上来，来做什么？爱最可爱的，最好听的，最好看的，最好吃的。"木心的文字总让我觉得，人应该活得再认真一点。</p>
+                <div class="entry-content">
+                  <p>木心的《文学回忆录》不是他自己写的书——是陈丹青在纽约听他讲了五年文学课的笔记。一本讲文学的书，但里面全是关于怎么活的道理。</p>
+                  <p>摘几段我反复读的：</p>
+                  <p><em>"生活的最佳状态是冷冷清清的风风火火。"</em></p>
+                  <p>这句话我读了很多遍才慢慢明白。冷冷清清是外表——不需要热闹、不需要别人的关注；风风火火是内心——对生活保持旺盛的热情。两者并不矛盾。</p>
+                  <p><em>"一个人到世界上来，来做什么？爱最可爱的，最好听的，最好看的，最好吃的。"</em></p>
+                  <p>初看觉得是在说享乐。再看觉得是在说认真——认真地去发现和珍惜那些真正好的东西。不是随便什么都可以，是"最好的"。</p>
+                  <p><em>"没有比粥更温柔的了。念予毕生流离红尘，就找不到一个似粥温柔的人。"</em></p>
+                  <p>木心写什么都带着一种慢。他的文字让我觉得，人应该活得再认真一点、再慢一点。</p>
+                </div>
+                <div class="entry-meta-sm faded">
+                  <span>05.28</span>
+                  <span class="vr"></span>
+                  <button class="meta-btn like-btn" data-post="4" aria-label="点赞">
+                    <svg width="7" height="6" viewBox="0 0 9 8" class="meta-icon-sm">
+                      <path d="M4.5 8 L0 3.5 Q0 0 4.5 1 Q9 0 9 3.5 Z" fill="none" stroke="currentColor" stroke-width="0.8"/>
+                    </svg>
+                    <span class="like-count">29</span>
+                  </button>
+                  <span class="vr"></span>
+                  <span>4 评</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 05 -->
+          <article class="entry entry-faded" data-category="mood" data-issue="12" id="post-5">
+            <div class="entry-row">
+              <span class="entry-number faded">05</span>
+              <div class="entry-body">
+                <span class="entry-category faded">心情</span>
+                <h3 class="entry-title-sm faded">失眠的晚上写给自己</h3>
+                <p class="entry-excerpt-sm faded">第三次看手机，凌晨两点半。脑子里乱七八糟的，白天没说出口的话、没做好的事、对未来的模糊焦虑，全都挤在一起。打开这个页面只是想找个地方说一句：没关系的，明天太阳还会升起来。晚安。</p>
+                <div class="entry-content">
+                  <p>第三次了。拿起手机，看一眼时间——凌晨两点三十四分。放下，翻个身，闭眼。十分钟后重新拿起。</p>
+                  <p>不是不想睡。是脑子不肯关。白天没说出口的话、没做好的事、一个本该回复但拖了三天的消息、对下周那个会议的紧张、对明年这个时候自己会在哪里的不确定——全挤在一起，像电脑开了太多窗口，每一个都在闪，但哪一个都关不掉。</p>
+                  <p>我坐起来，打开电脑。屏幕亮起来的瞬间，房间里有了一点光。</p>
+                  <p>失眠最难受的不是睡不着本身。是那种感觉——全世界都在安静地睡觉，只有你一个人醒着，好像被遗忘了。</p>
+                  <p>打开这个博客，看到自己之前写的那些东西——河边的傍晚，十年前那本日记——忽然觉得好一点了。原来白天的自己也会感到平静，也会觉得生活有值得记下来的部分。</p>
+                  <p>所以想对现在这个凌晨两点半的自己说一句：没关系的。睡不着的夜晚会过去。明天太阳会升起来，你会喝一杯咖啡，然后继续生活。那些让你焦虑的事，也许没有那么可怕。</p>
+                  <p>晚安。或者该说早安。</p>
+                </div>
+                <div class="entry-meta-sm faded">
+                  <span>05.20</span>
+                  <span class="vr"></span>
+                  <button class="meta-btn like-btn" data-post="5" aria-label="点赞">
+                    <svg width="7" height="6" viewBox="0 0 9 8" class="meta-icon-sm">
+                      <path d="M4.5 8 L0 3.5 Q0 0 4.5 1 Q9 0 9 3.5 Z" fill="none" stroke="currentColor" stroke-width="0.8"/>
+                    </svg>
+                    <span class="like-count">18</span>
+                  </button>
+                  <span class="vr"></span>
+                  <span>3 评</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <div class="archive-link" id="archive-link">
+          <span>更早的期号 &rarr;</span>
+        </div>
+
+        <!-- Detail View (hidden by default) -->
+        <div id="detail-view" class="detail-view" style="display:none;">
+          <button id="detail-back" class="detail-back">
+            &larr; 返回列表
+          </button>
+          <article class="detail-article" id="detail-article">
+            <!-- Dynamically filled by JS -->
+          </article>
+          <div id="detail-comments" class="detail-comments">
+            <!-- Per-post comment section -->
+          </div>
+        </div>
+
+      </main>
+
+      <!-- RIGHT: Interaction Sidebar -->
+      <aside class="sidebar sidebar-right" aria-label="互动区">
+        <div class="sidebar-section">
+          <h3 class="sidebar-label"><span class="geo-diamond">◆</span> 互动</h3>
+
+          <!-- Featured comment -->
+          <div class="featured-comment">
+            <blockquote>
+              <p>"失眠那篇让我想起自己。有时候深夜就是会变得脆弱，但第二天醒来发现阳光还是照常进来了。谢谢你把这些写下来，让我觉得不是只有我一个人这样。"</p>
+            </blockquote>
+            <div class="fc-rule"></div>
+            <cite>匿名读者 · 最新评论</cite>
+          </div>
+        </div>
+
+        <!-- Comment Form -->
+        <div class="sidebar-section">
+          <h3 class="comment-form-label">留下想法</h3>
+          <form id="comment-form" class="comment-form" novalidate>
+            <textarea
+              id="comment-textarea"
+              name="comment"
+              placeholder="写点什么..."
+              aria-label="评论内容"
+            ></textarea>
+            <div class="form-footer">
+              <span id="comment-error" class="form-error">内容不能为空</span>
+              <button type="submit" class="submit-btn">
+                发布
+                <span class="submit-line"></span>
+              </button>
+            </div>
+          </form>
+          <div id="comments-list" class="comments-list"></div>
+        </div>
+
+        <!-- Tags -->
+        <div class="sidebar-section">
+          <h3 class="sidebar-label tags-label">标签</h3>
+          <div class="tag-cloud">
+            <span class="tag">散步</span>
+            <span class="tag">加缪</span>
+            <span class="tag">失眠</span>
+            <span class="tag">木心</span>
+            <span class="tag">独处</span>
+            <span class="tag">日记</span>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+      <div class="footer-rule-top"></div>
+      <div class="footer-rule-bottom"></div>
+      <div class="footer-content">
+        <span class="footer-brand">Episode33</span>
+        <span class="footer-info">
+          <span>独立出版</span>
+          <span class="vr"></span>
+          <span>2025</span>
+        </span>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

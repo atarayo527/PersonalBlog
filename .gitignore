@@ -1,0 +1,6 @@
+.superpowers/
+docs/superpowers/
+submit/
+*.tar.gz
+*.py
+__pycache__/
